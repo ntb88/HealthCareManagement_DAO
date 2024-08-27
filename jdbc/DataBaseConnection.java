@@ -9,7 +9,7 @@ public class DataBaseConnection {
 
     private static final String url = "jdbc:mysql://localhost:3306/HealthcareManagementDB";
     static final String user = "root";
-    static final String password = "Arukani12!";
+    static final String password = "password";
     public static Connection getConnection() throws SQLException {
         return DriverManager.getConnection(url, user, password);
     }
